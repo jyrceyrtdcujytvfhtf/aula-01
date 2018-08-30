@@ -19,71 +19,69 @@ public class Mes {
     @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-       
+        int mes = 0;
+        while (mes != 0);
+        {
 
-         int mes ;
-            System.out.println("informe um número para verificar o Mês rapariga: ");
-            mes = entrada.nextInt();
-           
-            
-            switch (mes){
-    
-            
-             case 1 :
+        }
+        System.out.println("Informe um número para verificar o Mês Correspondente: ");
+        mes = entrada.nextInt();
+        switch (mes) {
+
+            case 1:
                 System.out.println("janeiro");
                 break;
-               
-                 case 2 :
+
+            case 2:
                 System.out.println("fevereiro");
                 break;
-                
-                
-                case 3 :
+
+            case 3:
                 System.out.println("marco");
                 break;
-                
-                 case 4 :
+
+            case 4:
                 System.out.println("abril");
                 break;
-                
-                 case 5 :
+
+            case 5:
                 System.out.println("maio");
                 break;
-                
-                 case 6 :
+
+            case 6:
                 System.out.println("junho");
                 break;
-                
-                 case 7 :
+
+            case 7:
                 System.out.println("julho");
                 break;
-                
-                 case 8 :
+
+            case 8:
                 System.out.println("agosto");
                 break;
-                
-                 case 9 :
+
+            case 9:
                 System.out.println("setembro");
                 break;
-                
-                 case 10 :
+
+            case 10:
                 System.out.println("outubro");
                 break;
-                
-                 case 11 :
+
+            case 11:
                 System.out.println("novembro");
                 break;
-                
-                 case 12 :
+
+            case 12:
                 System.out.println("dezembro");
                 break;
-               
-                 default:
-                    System.out.println("Mês Inválido");
-                 break;
-        }
-       
-            }
-    }  
-    
 
+        }
+        if (mes > 12 || mes <=0 ){
+                     
+                     System.out.println("DESCULPE ESTE MES NÃO EXISTE ");
+    }
+
+}
+
+}
